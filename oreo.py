@@ -26,7 +26,7 @@ def login():
 
 @app.route('/dashboard')
 def dashboard():
-    return "Selamat datang di Dashboard!"
+    return "Welcome, Bro!"
 
 if __name__ == '__main__':
     app.run(debug=True)
